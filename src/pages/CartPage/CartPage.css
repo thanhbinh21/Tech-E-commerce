@@ -1,0 +1,11 @@
+.container-cart {
+    background-color: white;
+    max-width: 1200px;
+    padding: 10px 20px;
+    width: 100%;
+    min-height: 500px;
+}
+
+h1 {
+    color: black;
+}

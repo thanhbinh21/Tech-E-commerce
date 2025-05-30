@@ -1,0 +1,128 @@
+.subpage-container {
+    max-width: 1200px;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    margin: 15px 0 15px 0;
+    box-shadow: 0 0px 2px 0 rgba(60, 64, 67, 0.1), 0 0px 6px 0px rgba(60, 64, 67, 0.25);
+
+    
+  }
+  
+  .title {
+    font-weight: bold;
+  }
+  
+  .author {
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    margin-bottom: 20px;
+    text-align: left;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 20px;
+  }
+  
+  .nav-section {
+    background: #f2f2f2;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .nav-section  h2 {
+    margin: 0;
+    font-size: 30px;
+    color: #000f8f;
+    font-weight: bold;
+    
+  }
+  
+
+
+  .nav-section li::before {
+    content: "\2022";
+    color: black; 
+    font-size: 25px; 
+    display: inline-block;
+    width: 20px; 
+}
+  
+  .nav-section li {
+    padding: 5px 0;
+    font-size: 20px;
+    color: black;
+  }
+  
+  .nav-section a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .image-container {
+    text-align: center;
+  }
+  
+  .project-image {
+    vertical-align: middle;
+    border-style: none;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  section {
+    margin-top: 20px;
+  }
+  
+  .video-container {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  
+  .subpage-content .time-post svg {
+    width: 15px;
+    height: 15px;
+    margin-right: 6px;
+    color: #000f8f;
+  }
+
+
+  
+  .subpage-content .time-post {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    display: inline-flex; /* Thay display: inline-block thành inline-flex */
+    align-items: center; /* Để căn chỉnh svg với text */
+    margin-right: 10px;
+  
+  }
+
+
+.posts{
+  margin-bottom: 10px;
+}
+
+section#overview h2,
+section#hardware h2,
+section#guide h2,
+section#video h2{
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 0 10px 0 0;
+  text-align: left;
+}
+
+section#overview ul li::before,
+section#hardware ul li::before{
+  content: "\2022";
+  color: black; 
+  font-size: 25px; 
+  display: inline-block;
+  width: 18px; 
+}
+
+
+

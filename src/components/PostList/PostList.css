@@ -1,0 +1,41 @@
+.post-list {
+  display: flex;
+  flex-wrap: wrap; /* Cho phép các thẻ card xuống dòng khi hết không gian */
+  gap: 35px; /* Khoảng cách giữa các thẻ */
+  justify-content: space-around; /* Đảm bảo các thẻ card được căn chỉnh về phía trái */
+  padding: 35px; /* Thêm khoảng cách trong của danh sách */
+  padding-bottom: 150px; /* Tạo khoảng trống dưới cùng */
+  height: 100%;
+  justify-content: flex-start;
+}
+
+.post-card {
+  width: 340px;
+  height: auto; /* Chiều cao tự động cho thẻ */
+  overflow: hidden; /* Đảm bảo không bị tràn nội dung ra ngoài thẻ */
+  transition: all 0.4s ease; /* Hiệu ứng chuyển động mượt mà */
+  border-radius: 8px; /* Làm tròn các góc thẻ */
+  position: relative;
+  box-shadow: rgba(60, 64, 67, 0.1) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; /* Đổ bóng cho thẻ */
+  padding: 15px; /* Khoảng cách bên trong thẻ */
+  background-color: white; /* Màu nền trắng cho thẻ */
+}
+
+.post-card:hover {
+  transform: translateY(-5px); /* Hiệu ứng khi hover, thẻ sẽ nổi lên */
+}
+
+.post-title:hover{
+  color: #ffc107;
+  cursor: pointer;
+}
+.post-image {
+  cursor: pointer;
+  transition: transform 0.3s ease; /* Thêm hiệu ứng chuyển động mượt mà */
+}
+
+.post-image:hover {
+  transform: scale(1.02); /* Phóng to ảnh khi hover, 1.1 là mức độ phóng to */
+}
+
+

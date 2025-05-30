@@ -1,0 +1,32 @@
+.product-card {
+    background: white;
+    max-width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);    
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    padding: 15px 0px;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .product-card img {
+    min-height: 100px;
+    max-height: 100px;
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .product-card p {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+  }
+
+/* Đổi màu tiêu đề khi hover vào card */
+.product-card:hover p {
+    color: rgb(194, 194, 0); /* Màu xanh đậm hoặc bất kỳ màu nào bạn thích */
+}

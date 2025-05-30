@@ -1,0 +1,42 @@
+.container-product {
+    background-color: aliceblue;
+    /* border: 2px solid black; */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    text-align: left;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Mỗi hàng có tối đa 5 card */
+    gap: 15px;
+    justify-content: center; /* Căn giữa nếu số lượng card không đủ */
+}
+  
+  @media (max-width: 1024px) {
+    .product-grid {
+      grid-template-columns: repeat(3, 1fr); /* Tablet: 3 card mỗi hàng */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .product-grid {
+      grid-template-columns: repeat(2, 1fr); /* Mobile: 2 card mỗi hàng */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .product-grid {
+      grid-template-columns: repeat(1, 1fr); /* Điện thoại nhỏ: 1 card mỗi hàng */
+    }
+  }
+  

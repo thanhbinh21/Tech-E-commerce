@@ -1,0 +1,23 @@
+.information {
+  background-color: #f2f2f2;
+  max-width: 1200px;
+  padding: 10px 20px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto; /* Căn giữa trang */
+}
+
+.content {
+  flex-grow: 1; /* Phần nội dung chính chiếm phần còn lại */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Thêm đổ bóng */
+  background-color: #fff;
+  border-radius: 8px; /* Bo góc */
+  display: flex;
+  flex-direction: column; /* Đảm bảo các phần tử con xếp theo chiều dọc */
+}
+
+.content > * {
+  flex-grow: 1; /* Đảm bảo các phần tử con mở rộng chiếm hết không gian */
+  justify-content: space-around;
+
+}

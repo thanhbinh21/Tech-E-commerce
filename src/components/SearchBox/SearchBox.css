@@ -1,0 +1,96 @@
+.search-box {
+    position: relative;
+  }
+  
+  .search-box input {
+    outline: none;
+  }
+  
+  .search-btn {
+    background-color: transparent;
+    text-align: center;
+    border-radius: 9999px;
+    transition: all 0.2s ease;
+  }
+  
+  .search-btn:hover {
+    background-color: #fbbf24;
+    color: white;
+  }
+  
+  .search-btn img {
+    height: 21px;
+    object-fit: cover;
+  }
+  
+  .suggestions-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 4px;
+    z-index: 50;
+    max-height: 160px;
+    overflow-y: auto;
+    padding-bottom: 10px;
+  }
+  
+  .suggestions-list li {
+    padding: 8px 16px;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+  }
+  
+  .suggestions-list li:hover {
+    background-color: #f3f4f6;
+  }
+  
+  .suggestions-list li:active {
+    background-color: #e5e7eb;
+  }
+  
+  .suggestions-list img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  
+  .suggestions-list .see-more {
+    padding: 10px 16px;
+    text-align: center;
+    color: #007bff;
+    cursor: pointer;
+    background-color: #fff;
+    font-weight: bold;
+    border-top: 1px solid #ddd;
+  }
+  
+  .suggestions-list .see-more:hover {
+    background-color: #000f8f;
+    color: #fff;
+  }
+  
+  .ellipsis {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .product-price-searchBox {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+    color: #d70018;
+  }

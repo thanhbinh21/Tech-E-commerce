@@ -1,0 +1,25 @@
+
+.header {
+  background-color: #000f8f;
+}
+@supports (backdrop-filter: blur(4px)) {
+  .backdrop-blur-sm {
+    backdrop-filter: blur(4px);
+  }
+}
+
+body.modal-open {
+  overflow: hidden;
+}
+
+.user-icon {
+  max-width: 30px;
+  max-height: 30px;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.user-name {
+  margin-top: 5px;
+}

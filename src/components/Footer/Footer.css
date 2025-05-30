@@ -1,0 +1,154 @@
+/* Footer tổng quát */
+.footer {
+    background-color: #000f8f;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+    padding: 20px 0px;
+  }
+  
+  /* Đăng ký email */
+  .footer-top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    
+  }
+  
+  .send-email > input {
+    width: 300px;
+    margin-right: 20px;
+    padding: 10px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: white;
+    color: black;
+  }
+  
+  .subscribe-btn {
+    background-color: #ffcc00;
+    color: #000f8f;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  /* Social icons */
+  .social-icons {
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .social-icons img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  /* Các cột thông tin */
+  .footer-columns {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-bottom: 1px solid white;
+  }
+  
+  .column {
+    width: 20%;
+    text-align: left;
+    padding: auto;
+  }
+  
+  .column h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #000f8f;
+  }
+  
+  .column a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    margin-bottom: 5px;
+  }
+  
+  .column a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Thông tin liên hệ */
+  .footer-contact {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-bottom: 1px solid white;
+    padding: 10px;
+  }
+  .footer-contact > h3 {
+    color: #000f8f;
+  }
+  
+  
+  .footer-logo {
+    text-align: left;
+    width: 40%;
+    padding-left: 20px;
+  }
+  
+  .footer-logo img {
+    width: 150px;
+  }
+
+  .footer-logo p {
+    color: black;
+  }
+  
+  .contact-info {
+    text-align: left;
+    width: 100vm;
+  }
+  
+  .contact-info p {
+    color: black;
+    margin: 5px 0;
+  }
+
+  .contact-info h3 {
+    color: #000f8f;
+    margin: 5px 0;
+  }
+  
+  /* Bản quyền */
+  .footer-bottom {
+    width: 100%;
+    padding-top: 15px;
+    font-size: 12px;
+  }
+
+  .columns {
+    margin: auto;
+    width: 100%;
+    max-width: 1200px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-bottom: 1px solid white;
+  }
+
+  h3 {
+    font-weight: bold;
+  }
+  

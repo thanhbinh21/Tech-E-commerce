@@ -1,0 +1,55 @@
+.container-addaccount {
+    background-color: white;
+    max-width: 1200px;
+    padding: 10px 20px;
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+}
+.form_create h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    height: 50%;
+    
+}
+.form_create{
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #decdcd;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: column;
+    
+} 
+
+.form_create input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.btn_create:hover{
+    background-color: #325cda;
+}
+.btn_create{
+    width: 100%;
+    background-color: #0a429d;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.error {
+    color: red;
+    margin-bottom: 10px;
+    height: 10px;
+}
