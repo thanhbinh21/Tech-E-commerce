@@ -13,7 +13,7 @@ export const UserProvider = ({ children }) => {
   useEffect(() => {
     const axiosUser = async () => {
       try {
-        const res = await axios.get("/apiUser");
+        const res = await axios.get("https://67d6eb959d5e3a101529639b.mockapi.io/data/v1/User");
         const apiUsers = res.data;
 
         const storedUsers = JSON.parse(localStorage.getItem("users")) || []; // lấy tài khoản đã có trên loca
