@@ -16,7 +16,7 @@ export default defineConfig({
       },
       '/apiProduct': {
         //  target: 'https://67d6eb959d5e3a101529639b.mockapi.io/data/v1/Product',
-          target: 'https://6831495b6205ab0d6c3bcc11.mockapi.io/products',
+        target: 'https://6831495b6205ab0d6c3bcc11.mockapi.io/products',
         changeOrigin: true,
         secure: false,
         rewrite: (path) => path.replace(/^\/apiProduct/, '')

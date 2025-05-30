@@ -12,7 +12,7 @@ export const ProductProvider = ({ children }) => {
     setIsLoading(true);
     setError(null);
     try {
-      const res = await axios.get("/apiProduct");
+      const res = await axios.get("https://6831495b6205ab0d6c3bcc11.mockapi.io/products");
       setProducts(res.data);
     } catch (error) {
       console.error("Error fetching data:", error);
